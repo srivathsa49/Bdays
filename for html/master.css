@@ -1,0 +1,60 @@
+a {
+  color: black;
+}
+a:hover {
+ color: yellow;
+}
+
+body {
+ background-color: #2063A3;
+ background-image:url("bkg.png"),linear-gradient(to right, #014B7D, #028FD7, #014B7D);
+ color: white;
+ font-family: helvetica,arial,sans-serif;
+ text-align: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: orange;
+  text-shadow: 0.2rem 0.2rem 0.4rem white;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+h2 {
+ margin-bottom: 2rem;
+}
+
+h2,h3 {
+  text-shadow: 0.2rem 0.2rem 0.4rem brown;
+}
+
+hr {
+border: none;
+border-top: 0.7rem dotted #cccccc;
+margin-bottom: 3rem;
+width: 70%;
+
+}
+
+table {
+  margin: 3rem auto;
+  width: 60%;
+  }
+
+table,td {
+  border: 0.1rem solid orange;
+  border-collapse: collapse;
+  padding: 2rem;
+}
+
+#credits {
+font-size: 1rem;
+}
+.still-thumbnail {
+  width: 20rem; /* root element */
+}
+
+.video-thumbnail {
+ width: 15rem;
+}
